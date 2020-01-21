@@ -1,0 +1,18 @@
+
+{
+  "name": "bookingkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "bookingkitScenario": "npm run test -- --spec \"cypress/integration/bookingkitScenario/*\""
+  },
+  "author": "Sanjin D",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.2"
+  }
+}

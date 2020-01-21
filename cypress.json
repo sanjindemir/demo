@@ -1,0 +1,8 @@
+{
+    "env": 
+    {
+        "baseUrl": "https://releasetest.bookingkit.de"
+    },
+    "viewportHeight": 768,
+    "viewportWidth": 1024
+}
